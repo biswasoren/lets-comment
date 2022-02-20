@@ -1,0 +1,133 @@
+.App {
+  text-align: center;
+  background-color: #875F6D;
+}
+
+.Container {
+  background-color: #2E1D23; 
+  margin: auto 15%;
+  min-height: 100vh;
+}
+
+.textArea {
+  width: 100%;
+  outline: none;
+  height: 100px;
+  border-color: #2E1D23;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgba(237, 152, 182, 0.4);
+  color: #F5EFFF;
+}
+
+.box {
+  margin: 0px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  height: 30px;
+  width: 80px;
+  border: none;
+  margin: 10px;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: bolder;
+  background-color: #A594F9;
+}
+
+.button:hover {
+  background-color: #7371FC;
+  height: 30px;
+  width: 80px;
+  border: none;
+  color: white;
+  margin: 10px;
+}
+
+.avatar {
+  border: 2px solid #ED98B6;
+  border-radius: 100%;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #330314;
+  color: #ED98B6;
+}
+
+.comment_text {
+    font-size: 0.9rem;
+    padding: 10px;
+    display: flex;
+    height: 30px;
+    color: #F5EFFF;
+    border-radius: 10px;
+  }
+
+.main_thread {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 0;
+  position: relative;
+  }
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+.point {
+  height: 50px;
+    width: 50px;
+    padding-left: 10px;
+    user-select: none;
+}
+
+.messageBox {
+  display: flex;
+}
+
+.author {
+  display: flex;
+}
+
+.author_name {
+  padding-left: 10px;
+    display: flex;
+    align-items: center;
+    color: #ED98B6;
+    font-weight: 800;
+}
+
+.stick{
+    top: 80px;
+    left: 14px;
+    height: calc(100% - 100px);
+    width: 2px;
+    background-color: #ED98B6;
+    position: absolute;
+}
+
+@media only screen and (max-width: 600px) {
+  .Container {
+    margin: 0;
+  }
+
+  .box {
+    margin: 0 15px;
+  }
+
+  .textArea {
+    height: 20px;
+  }
+}
